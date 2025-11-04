@@ -30,11 +30,13 @@ body {
 width: 50%;
 }
 
-@media (max-width: 768px) {
-    .text-container {
+@media screen and (max-width: 600px) {
+    body {
         justify-conent: center;
         align-items: center;
         flex-direction: column;
+        font-size: 16px;
+        padding: 10px;
     }
 .section {
   flex-direction: column;
