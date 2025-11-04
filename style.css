@@ -43,8 +43,9 @@ width: 50%;
 }
 .section {
   flex-direction: column;
-    text-align: left;
+    text-align: right;
   }
+}
   .section img, .section .text{
     width: 30%;
   }
