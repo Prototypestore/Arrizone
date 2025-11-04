@@ -8,43 +8,42 @@ body {
     max-width: 100%;
 }
 
-.zigzag {
+.section discover {
   display: flex;
   flex-direction: row;
-  align-items: center; /* vertical alignment */
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px; /* spacing between sections */
+  margin-bottom: 50px;
 }
 
-.zigzag.reverse {
-  flex-direction: row-reverse; /* flips text and image */
+.section story {
+  flex-direction: row-reverse;
 }
 
-/* Text alignment */
-.zigzag .text {
-  width: 50%; /* adjust as needed */
+.section discover .text {
+  width: 50%;
 }
 
-.zigzag .image {
-  width: 50%; /* adjust as needed */
+.section discover .image {
+  width: 50%;
 }
 
-.zigzag .text p,
-.zigzag .text h2 {
-  text-align: left; /* default text alignment */
+.section story .text p,
+.section story .text h2 {
+  text-align: left;
 }
 
 @media screen and (max-width: 768px) {
-  .zigzag,
-  .zigzag.reverse {
+  .section,
+  .section.reverse {
     flex-direction: column;
   }
-  .zigzag .text,
-  .zigzag .image {
+  .section .text,
+  .section .image {
     width: 100%;
   }
-  .zigzag .text p {
-    text-align: center; /* center text on mobile */
+  .section .text p {
+    text-align: center;
   }
 }
 
