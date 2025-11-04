@@ -31,8 +31,11 @@ width: 50%;
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 0 10px;
+    .story-paragraph, .discovery-paragraph {
+        padding-left: 10px;
+        padding-right: 10px
+        text-align: center;
+        margin-left: auto;
     }
 .section {
   flex-direction: column;
