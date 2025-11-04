@@ -41,11 +41,12 @@ width: 50%;
         flex-direction: column;
     }
 }
+
 .section {
   flex-direction: column;
     text-align: right;
   }
-}
+
   .section img, .section .text{
     width: 30%;
   }
@@ -112,7 +113,7 @@ hero-heading{
     height: 50vh;
     }
 }
-
+}
 hero .btn{
    padding: 10px 20px;
    background-color: #ffffff;
