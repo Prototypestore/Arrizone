@@ -43,12 +43,11 @@ width: 50%;
 }
 .section {
   flex-direction: column;
-    text-align: right;
+    text-align: left;
   }
   .section img, .section .text{
     width: 30%;
   }
-}
 
 .hero-image { width: 100%;
               height: auto;
