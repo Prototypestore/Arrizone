@@ -32,13 +32,13 @@ width: 50%;
     width: 45%;
     height: auto;
     float: right;
-    margin-left: 5%;
+    margin-left: 60%;
   }
   .section.story img {
       width: 45%;
       height: auto;
       float: left;
-      margin-right: 5%;
+      margin-right: 60%;
   }
    .section .text {
        text-align: left;
@@ -46,7 +46,7 @@ width: 50%;
        font-size: 16px;
    }
     .hero {
-        Width: 100%;
+        Width: auto;
         height: auto;
         background-size: cover;
         background-position: center;
