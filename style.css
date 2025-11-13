@@ -36,13 +36,11 @@ width: 50%;
     flex-dirction: row;
     width: 40%;
     height: 55%;
-    object-fit: cover;
   }
   .section.story img {
       flex-direction: row-reverse;
       width: 40%;
       height: 55%;
-      object-fit: cover;
   }
  .text {
        text-align: left;
@@ -50,7 +48,7 @@ width: 50%;
        font-size: 16px;
    }
     .hero {
-        Width: 85%;
+        Width: 100%;
         height: auto;
         background-size: cover;
         background-position: center;
