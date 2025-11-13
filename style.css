@@ -25,28 +25,29 @@ width: 50%;
 
 @media only screen and (max-width: 768px) {
 .section {
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   }
   .section.discover img {
-    width: 45%;
+    width: 40%;
     height: auto;
     float: right;
-    margin-left: 60%;
+    margin-left: 6%;
   }
   .section.story img {
-      width: 45%;
+      width: 40%;
       height: auto;
       float: left;
-      margin-right: 60%;
+      margin-right: 6%;
   }
    .section .text {
        text-align: left;
-       width: 75%;
+       width: 65%;
        font-size: 16px;
    }
     .hero {
-        Width: auto;
+        Width: 35vh;
         height: auto;
         background-size: cover;
         background-position: center;
