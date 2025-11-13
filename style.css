@@ -25,29 +25,34 @@ width: 50%;
 
 @media only screen and (max-width: 768px) {
 .section {
-  flex-direction: row;
+  display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 2rem;
   }
   .section.discover img {
+    justify-content: space-between;
+    flex-direction: row;
     width: 40%;
     height: auto;
-    float: right;
     margin-left: 6%;
   }
   .section.story img {
+      justify-content: space-between;
+      flex-direction: row-reverse;
       width: 40%;
       height: auto;
-      float: left;
       margin-right: 6%;
   }
    .section .text {
-       text-align: left;
+       text-align: center;
        width: 65%;
        font-size: 16px;
    }
     .hero {
-        Width: 35vh;
+        Width: 30vh;
         height: auto;
         background-size: cover;
         background-position: center;
